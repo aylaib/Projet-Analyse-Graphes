@@ -123,4 +123,12 @@ Le programme implémente les opérations suivantes :
 \- \[Énoncé du Devoir](./enonce\_devoir.pdf) : Le sujet original du projet.
 
 
+## 📸 Captures d'écran
 
+Voici quelques exemples d'utilisation du programme.
+
+**Construction d'un graphe non orienté et ajout d'arêtes :**
+![Construction d'un graphe non orienté](./screenshots/01.png)
+
+**Construction d'un graphe orienté et ajout d'arcs :**
+![Construction d'un graphe orienté](./screenshots/02.png)
