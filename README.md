@@ -117,11 +117,8 @@ Le programme implémente les opérations suivantes :
 \## 📊 Documents de Référence
 
 
-
-\- \[Rapport du Projet](./rapport\_projet.pdf) : Contient l'analyse théorique, les tableaux de complexité et l'évaluation expérimentale.
-
-\- \[Énoncé du Devoir](./enonce\_devoir.pdf) : Le sujet original du projet.
-
+- [Rapport du Projet](./rapport_projet.pdf) : Contient l'analyse théorique...
+- [Énoncé du Devoir](./enonce_devoir.pdf) : Le sujet original du projet.
 
 ## 📸 Captures d'écran
 
