@@ -1,72 +1,50 @@
-# Implémentation et Analyse de Complexité d'Algorithmes sur les Graphes
-
-Ce projet a été réalisé dans le cadre du module "Algorithmique Avancée et Complexité" pour le Master 1 en Bio-Informatique à l'USTHB (Année 2023/2024).
-
-Il s'agit d'une implémentation en Python d'opérations fondamentales sur les graphes, accompagnée d'une analyse de leur complexité. Le projet explore les deux représentations principales des graphes (matrice d'adjacence et liste d'adjacence) et compare leurs performances.
-
+# Graph Algorithms Implementation and Complexity Analysis
+This project was carried out as part of the "Advanced Algorithms and Complexity" module for the Master 1 in Bioinformatics at USTHB (Year 2023/2024).
+It is a Python implementation of fundamental graph operations, accompanied by an analysis of their complexity. The project explores the two main graph representations (adjacency matrix and adjacency list) and compares their performance.
 ## 📜 Description
-
-Le programme `graph_analyzer.py` offre une interface en ligne de commande pour :
-- Construire des graphes, orientés ou non.
-- Afficher graphiquement les structures créées.
-- Exécuter une série d'analyses algorithmiques sur le graphe courant.
-
-## ✨ Fonctionnalités
-
-Le programme implémente les opérations suivantes :
-
-- **Création et Affichage :**
-  - Construction de graphes orientés et non orientés.
-  - Visualisation graphique à l'aide de `matplotlib`.
-
-- **Analyse de Propriétés :**
-  - Calcul de la **densité** du graphe.
-  - Calcul des **degrés** (degré simple, entrant et sortant).
-  - Vérification si un graphe est **Eulérien**.
-  - Vérification si un graphe est **Complet**.
-  - Vérification si un graphe est un **Arbre**.
-
-- **Algorithmes de Parcours et de Recherche :**
-  - Recherche de **tous les chemins simples** entre deux nœuds.
-  - Recherche du **chemin le plus court** entre deux nœuds (basé sur le nombre d'arêtes).
-  - Identification de tous les **cycles** dans un graphe orienté.
-
-## 🛠️ Prérequis
-
-- Python 3.6 ou supérieur
-- Les bibliothèques listées dans `requirements.txt`
-
-## 🚀 Comment l'exécuter
-
-1.  **Clonez le dépôt (ou téléchargez les fichiers) :**
+The `graph_analyzer.py` program offers a command-line interface to:
+- Build graphs, directed or undirected.
+- Display graphically the created structures.
+- Execute a series of algorithmic analyses on the current graph.
+## ✨ Features
+The program implements the following operations:
+- **Creation and Display:**
+  - Construction of directed and undirected graphs.
+  - Graphical visualization using `matplotlib`.
+- **Property Analysis:**
+  - Calculation of graph **density**.
+  - Calculation of **degrees** (simple degree, in-degree and out-degree).
+  - Verification if a graph is **Eulerian**.
+  - Verification if a graph is **Complete**.
+  - Verification if a graph is a **Tree**.
+- **Traversal and Search Algorithms:**
+  - Search for **all simple paths** between two nodes.
+  - Search for the **shortest path** between two nodes (based on number of edges).
+  - Identification of all **cycles** in a directed graph.
+## 🛠️ Prerequisites
+- Python 3.6 or higher
+- The libraries listed in `requirements.txt`
+## 🚀 How to Run
+1.  **Clone the repository (or download the files):**
     ```bash
     git clone https://github.com/aylaib/Projet-Analyse-Graphes.git
     cd Projet-Analyse-Graphes
     ```
-
-2.  **Installez les dépendances :**
+2.  **Install dependencies:**
     ```bash
     pip install -r requirements.txt
     ```
-
-3.  **Lancez le programme :**
+3.  **Run the program:**
     ```bash
     python graph_analyzer.py
     ```
-
-4.  Suivez les instructions du menu pour interagir avec le programme.
-
-## 📊 Documents de Référence
-
-- [Rapport du Projet](./rapport_projet.pdf) : Contient l'analyse théorique, les tableaux de complexité et l'évaluation expérimentale.
-- [Énoncé du Devoir](./enonce_devoir.pdf) : Le sujet original du projet.
-
-## 📸 Captures d'écran
-
-Voici quelques exemples d'utilisation du programme.
-
-**Construction d'un graphe non orienté et ajout d'arêtes :**
-![Construction d'un graphe non orienté](./screenshots/01.png)
-
-**Construction d'un graphe orienté et ajout d'arcs :**
-![Construction d'un graphe orienté](./screenshots/02.png)
+4.  Follow the menu instructions to interact with the program.
+## 📊 Reference Documents
+- [Project Report](./rapport_projet.pdf): Contains theoretical analysis, complexity tables and experimental evaluation.
+- [Assignment Statement](./enonce_devoir.pdf): The original project subject.
+## 📸 Screenshots
+Here are some examples of program usage.
+**Construction of an undirected graph and adding edges:**
+![Construction of an undirected graph](./screenshots/01.png)
+**Construction of a directed graph and adding arcs:**
+![Construction of a directed graph](./screenshots/02.png)
